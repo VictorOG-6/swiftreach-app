@@ -13,7 +13,7 @@ const Slides = () => {
     },
     {
         img: welcomeimgdark6,
-        text: 'Our mission basically is wrapped around delivering basic access to medicine',
+        text: 'Our mission basically is wrapped around providing basic access to medicine through delivery',
     },
     {
         img: welcomeimgdark4,
