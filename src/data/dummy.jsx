@@ -1,0 +1,32 @@
+export const trackedorders = [
+    {
+      id: 'SUR14592900',
+      orderDate: 'Fri, 5 Jan 2024',
+      deliveryDate: 'Sat, 27 Jan 2024 ',    
+      sliderPercentage: 50,
+      pickupAddress: 'Surulere, Lagos',
+      deliveryAddress: 'Gwarinpa, Abuja', 
+      packageContent: 'Handle Well',
+      packageQuantity: 2, 
+    },
+    {
+        id: 'LEK22571911',
+        orderDate: 'Mon, 1 Jan 2024',
+        deliveryDate: 'Sat, 20 Jan 2024 ',    
+        sliderPercentage: 100,
+        pickupAddress: 'Lekki, Lagos',
+        deliveryAddress: 'Surulere, Lagos', 
+        packageContent: 'Documents',
+        packageQuantity: 20, 
+    },
+    {
+        id: 'GWA37392300',
+        orderDate: 'Fri, 10 Jan 2024',
+        deliveryDate: 'Sat, 27 Jan 2024 ',    
+        sliderPercentage: 0,
+        pickupAddress: 'Gwarinpa, Abuja',
+        deliveryAddress: 'Ikoyi, Lagos', 
+        packageContent: 'Products',
+        packageQuantity: 1, 
+    },  
+]    
