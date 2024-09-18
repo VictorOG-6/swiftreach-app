@@ -30,9 +30,9 @@ const SignIn = () => {
               </div>          
             </form>
             <div className='w-[64vw] text-right mb-12'><a href='/signup'>Not Registered</a></div>
-            <button className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
+            <Link to='/home' className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
               <h5>Sign In</h5>
-            </button>
+            </Link>
         </div>
       </div>
       <div>

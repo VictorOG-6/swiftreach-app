@@ -13,7 +13,7 @@ const Slides = () => {
     },
     {
         img: welcomeimgdark6,
-        text: 'Our mission basically should be wrapped around delivering basic access to medicine to all 7 billion people on the planet no matter how hard it is to reach them',
+        text: 'Our mission basically is wrapped around delivering basic access to medicine',
     },
     {
         img: welcomeimgdark4,

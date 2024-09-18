@@ -36,7 +36,9 @@ const SignUp = () => {
             <input type="password" placeholder='Confirm your password' className='pl-2 h-8 bg-[#12352420] border border-beige' required/>
           </div>
         </form>
-        <div className='w-[64vw] text-right mb-12'><a href='/signin'>Already Registered. SignIn </a></div>
+        <div className='w-[64vw] text-right mb-12'>
+          <Link to='/signin'>Already Registered. SignIn </Link>
+        </div>
         <Link to='/signup1' className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
           <h5>Sign Up</h5>
         </Link>

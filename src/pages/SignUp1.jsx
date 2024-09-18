@@ -10,7 +10,7 @@ const SignUp1 = () => {
     const [selectLocation, setSelectLocation] = useState(false)
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center h-screen overflow-hidden'>
         <div className='-mt-16'>
             <img src={mapimgdark} alt="map-img" />
         </div>
@@ -19,9 +19,9 @@ const SignUp1 = () => {
             <h5>This lets us estimate the delivery distance and know which drone is best for you</h5>
         </div>
         <div className='mt-8'>
-            <button className='w-[90vw] bg-black text-white p-4 flex items-center justify-center rounded-3xl'>
+            <Link to='/signup2' className='w-[90vw] bg-black text-white p-4 flex items-center justify-center rounded-3xl'>
                 <h1>Use Current Location</h1>
-            </button>
+            </Link>
         </div>
         <div className='mt-4'>
             <button onClick={() => setSelectLocation(true)} className='w-[90vw] bg-[#12352420] text-black p-4 flex items-center justify-center rounded-3xl'>
