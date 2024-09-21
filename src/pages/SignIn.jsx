@@ -29,7 +29,7 @@ const SignIn = () => {
                 <input type="password" className='pl-2 h-8 bg-[#12352420] border border-beige' required/>
               </div>          
             </form>
-            <div className='w-[64vw] text-right mb-12'><a href='/signup'>Not Registered</a></div>
+            <div className='w-[64vw] text-right mb-12'><Link to='/signup'>Not Registered</Link></div>
             <Link to='/home' className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
               <h5>Sign In</h5>
             </Link>

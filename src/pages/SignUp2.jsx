@@ -19,9 +19,9 @@ const SignUp2 = () => {
             </div>
           </div>
           <div>
-            <div>
+            <Link to='/signup1'>
               <h5 className='bg-[#80FFBA60] rounded-full py-2 px-4'>Change</h5>
-            </div>
+            </Link>
           </div>
         </div>
         <Link to='/home' className='w-[90vw] bg-black text-white p-4 flex items-center justify-center rounded-3xl mt-2 mb-12'>
