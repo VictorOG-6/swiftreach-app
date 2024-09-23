@@ -22,10 +22,10 @@ const TrackOrder = () => {
                 </Link>
             </div>
         </div>      
-      <div className='h-[44vh]'>
+      <div className='h-[41vh]'>
         <Map/>
       </div>
-      <div className='w-[90vw] p-4 rounded-3xl border border-black-200 shadow-md'>
+      <div className='w-[90vw] h-[26vh] p-4 rounded-3xl border border-black-200 shadow-md'>
         <div className='flex items-center justify-center rounded-3xl bg-[#FFC107] p-2'>
           <h1 className='font-bold'>SUR14592900</h1>
         </div>

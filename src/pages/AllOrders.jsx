@@ -22,7 +22,7 @@ const AllOrders = () => {
                 </Link>
             </div>
         </div>
-        <div className='h-[70vh] w-[93vw] flex flex-col items-center gap-4 overflow-y-scroll pb-4'>
+        <div className='h-[68vh] w-[93vw] flex flex-col items-center gap-4 overflow-y-scroll pb-4'>
             <OrderCard/>            
         </div>
     </div>

@@ -6,21 +6,21 @@ import { FaPlus } from "react-icons/fa";
 const CreateOrder = () => {
   return (
     <div className='py-4 px-8 w-screen flex flex-col items-center'>
-      <h1 className='text-[1.2em] mb-8'>Create Order</h1>
-      <div className='mb-8'>
+      <h1 className='text-[1.2em] mb-4'>Create Order</h1>
+      <div className='mb-4'>
         <h3 className='mb-2'>Package Dimension</h3>
-        <div className='border border-black-200 shadow-md rounded-3xl p-4'>
+        <div className='h-[25.5vh] border border-black-200 shadow-md rounded-3xl p-4'>
           <div className='flex w-[85vw] justify-around mb-4'>
             <div className='w-[20vw]'>
-              <h3 className='mb-2'>Length <span>(cm)</span></h3>
+              <h3 className='mb-2 whitespace-nowrap'>Length <span>(cm)</span></h3>
               <input className='w-[18vw] p-4 rounded-3xl bg-[#12352420]' type="number" placeholder='000.00' required/>
             </div>
             <div className='w-[20vw]'>
-              <h3 className='mb-2'>Width <span>(cm)</span></h3>
+              <h3 className='mb-2 whitespace-nowrap'>Width <span>(cm)</span></h3>
               <input className='w-[18vw] p-4 rounded-3xl bg-[#12352420]' type="number" placeholder='000.00' required/>
             </div>
             <div className='w-[20vw]'>
-              <h3 className='mb-2'>Height <span>(cm)</span></h3>
+              <h3 className='mb-2 whitespace-nowrap'>Height <span>(cm)</span></h3>
               <input className='w-[18vw] p-4 rounded-3xl bg-[#12352420]' type="number" placeholder='000.00' required/>
             </div>
           </div>
@@ -28,7 +28,7 @@ const CreateOrder = () => {
             <div className='w-[74vw] text-left'>
               <h3 className='mb-2'>Weight</h3>
             </div>
-            <div className='flex bg-[#12352420] w-[74vw] justify-between p-2 rounded-3xl'>
+            <div className='flex bg-[#12352420] w-[79vw] justify-between p-2 rounded-3xl'>
               <input style={{ background: "none"}} type="text" placeholder='000.00' required/>
               <div className='flex rounded-3xl bg-white'>
                 <div className='py-2 px-4 rounded-3xl bg-[#123524] text-white'><h1>KG</h1></div>
@@ -40,7 +40,7 @@ const CreateOrder = () => {
       </div>
       <div className='mb-4'>
         <h3 className='mb-2'>Package Details</h3>
-        <div className='border border-black-200 shadow-md rounded-3xl p-4'>
+        <div className='h-[36vh] border border-black-200 shadow-md rounded-3xl p-4'>
           <div className='w-[85vw] mb-4'>
             <h3 className='mb-2'>Package Contains</h3>
             <div className='bg-[#12352420] flex justify-around items-center p-2 rounded-3xl'>

@@ -17,18 +17,18 @@ const CreateOrder3 = () => {
             </div>
             <div className='w-[87vw]'>
               <div className='flex justify-between'>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
                   <div>
-                    <h3>Drone Delivery</h3>
+                    <h3 className='whitespace-nowrap'>Drone Delivery</h3>
                     <h1 className='font-bold'>$19.99</h1>
                   </div>
                   <div className='h-4 w-4 rounded-full border border-black p-2'>
                     <div className='bg-[#80ffba] rounded-full'/>
                   </div>
                 </div>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
                   <div>
-                    <h3>Van Delivery</h3>
+                    <h3 className='whitespace-nowrap'>Van Delivery</h3>
                     <h1 className='font-bold'>$10.99</h1>
                   </div>
                   <div className='h-4 w-4 rounded-full border border-black p-2'>
@@ -37,18 +37,18 @@ const CreateOrder3 = () => {
                 </div>
               </div>
               <div className='flex justify-between'>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
                   <div>
-                    <h3>Scooter Delivery</h3>
+                    <h3 className='whitespace-nowrap'>Scooter Delivery</h3>
                     <h1 className='font-bold'>$8.99</h1>
                   </div>
                   <div className='h-4 w-4 rounded-full border border-black p-2'>
                     <div className='rounded-full'/>
                   </div>
                 </div>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
                   <div>
-                    <h3>Bicycle Delivery</h3>
+                    <h3 className='whitespace-nowrap'>Bicycle Delivery</h3>
                     <h1 className='font-bold'>$5.99</h1>
                   </div>
                   <div className='h-4 w-4 rounded-full border border-black p-2'>
@@ -59,7 +59,7 @@ const CreateOrder3 = () => {
             </div>
           </div>
         </div>
-        <div className='mb-8'>
+        <div className='mb-4'>
           <h3 className='mb-2'>Invoice</h3>
           <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-4'>
             <div className='w-[80vw] border-b border-black-500 pb-2'>

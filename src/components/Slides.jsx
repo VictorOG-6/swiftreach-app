@@ -2,6 +2,9 @@ import {React, useState, useEffect} from 'react'
 import welcomeimgdark1 from '/welcomeimgdark1.png'
 import welcomeimgdark4 from '/welcomeimgdark4.png'
 import welcomeimgdark6 from '/welcomeimgdark6.png'
+import welcomeimglight1 from '/welcomeimglight1.png'
+import welcomeimglight4 from '/welcomeimglight4.png'
+import welcomeimglight6 from '/welcomeimglight6.png'
 
 const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0)  
@@ -9,14 +12,17 @@ const Slides = () => {
   const slides = [
     {
         img: welcomeimgdark1,
+        img1: welcomeimglight1,
         text: 'Swift Reach is a company that uses electric autonomous aircraft(drones) to deliver medicine to hospitals and health centres on demand', 
     },
     {
         img: welcomeimgdark6,
+        img1: welcomeimglight6,
         text: 'Our mission basically is wrapped around providing basic access to medicine through delivery',
     },
     {
         img: welcomeimgdark4,
+        img1: welcomeimglight4,
         text: 'Swift Reach ensures reliable and secure deliveries between parties including safe encryption of customer data',
     },
   ]  
@@ -47,7 +53,8 @@ const Slides = () => {
   return (
     <div className='flex flex-col items-center gap-4 mb-16'>
       <div className="relative">
-        <img src={slides[currentSlide].img} alt="hero-img" className='flex flex-col items-center' />
+        <img src={slides[currentSlide].img} alt="hero-img" className='flex flex-col items-center dark:hidden' />
+        <img src={slides[currentSlide].img1} alt="hero-img" className='hidden dark:flex flex-col items-center' />
         <button onClick={goToPrevSlide} className="absolute left-0 top-1/2 transform -translate-y-1/2 text-3xl p-2">
           &#10094;
         </button>

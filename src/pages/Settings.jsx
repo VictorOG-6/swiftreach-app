@@ -12,7 +12,7 @@ const Settings = () => {
   return (
     <div className='w-screen flex flex-col items-center p-4'>
       <img className='w-20 mb-2' src={swiftreach} alt="logo" />
-      <div className='w-[93vw] h-[77vh] overflow-y-scroll'>
+      <div className='w-[93vw] h-[75vh] overflow-y-scroll'>
         <div className='mb-2'>
           <h1 className='mb-2'>Account</h1>
           <div>

@@ -10,7 +10,7 @@ const SignUp1 = () => {
     const [selectLocation, setSelectLocation] = useState(false)
 
   return (
-    <div className='flex flex-col items-center jsutify-center h-screen overflow-hidden'>
+    <div className='flex flex-col items-center justify-center h-screen overflow-hidden'>
         <div className='-mt-16'>
             <img src={mapimgdark} alt="map-img" />
         </div>

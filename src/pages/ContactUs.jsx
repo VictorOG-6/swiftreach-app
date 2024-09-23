@@ -41,7 +41,7 @@ const ContactUs = () => {
 
   return (
     <div className='w-screen h-screen flex flex-col items-center justify-start pt-4'>
-      <div className='mb-8'>
+      <div className='mb-4'>
         <img className='w-20' src={swiftreach} alt="logo" />
       </div>
       <div className='w-[93vw] bg-[#12352420] rounded-3xl'>

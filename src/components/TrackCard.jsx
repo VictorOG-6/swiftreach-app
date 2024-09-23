@@ -30,7 +30,7 @@ const TrackCard = () => {
   return (
     <>
       {orderStates.map((order, index) => (
-        <div  key={index} className="bg-white w-[43vw] min-w-[43vw] rounded-3xl p-2 border-2 shadow-lg" style={{ borderRightColor: order.color, borderBottomColor: order.color}}>
+        <div  key={index} className="bg-white rounded-3xl p-2 border-2 shadow-lg" style={{ borderRightColor: order.color, borderBottomColor: order.color}}>
               <div className="flex justify-center mb-2">
                 <div className='text-center'>
                   <h3>Tracking ID</h3>
@@ -50,11 +50,11 @@ const TrackCard = () => {
               <div className="flex flex-col mt-2">
                 <div className='flex items-center gap-2'>
                   <h3>P/A:</h3>
-                  <h5 className="font-bold">{order.pickupAddress}</h5>
+                  <h5 className="font-bold whitespace-nowrap">{order.pickupAddress}</h5>
                 </div>
                 <div className='flex items-center gap-2'>
                   <h3>D/A:</h3>
-                  <h5 className="font-bold">{order.deliveryAddress}</h5>
+                  <h5 className="font-bold whitespace-nowrap">{order.deliveryAddress}</h5>
                 </div>
               </div>
             </div>
