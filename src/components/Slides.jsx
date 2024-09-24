@@ -70,7 +70,7 @@ const Slides = () => {
           <div
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-4 h-4 rounded-full ${index === currentSlide ? 'bg-[#123524] dark:bg-[#ff80ba]' : 'bg-[#12352420]'}`}
+            className={`w-4 h-4 rounded-full ${index === currentSlide ? 'bg-[#123524] dark:bg-[#80ffba]' : 'bg-[#12352420]'}`}
           />
         ))}
       </div>
