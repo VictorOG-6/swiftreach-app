@@ -39,7 +39,7 @@ const SignUp = () => {
         <div className='w-[64vw] text-right mb-12 text-blue-950 underline'>
           <Link to='/signin'>Already Registered. SignIn </Link>
         </div>
-        <Link to='/signup1' className='bg-[#123524] dark:bg-[#80ffba] dark:bg-black w-[60vw] rounded-full p-4 text-center text-white'>
+        <Link to='/signup1' className='bg-[#123524] dark:bg-[#80ffba] dark:text-black w-[60vw] rounded-full p-4 text-center text-white'>
           <h5>Sign Up</h5>
         </Link>
       </div>
