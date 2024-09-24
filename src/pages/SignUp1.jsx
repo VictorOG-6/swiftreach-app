@@ -32,60 +32,60 @@ const SignUp1 = () => {
                 </button>
             </div>        
         </div>
-        <div className={`w-screen h-screen absolute bottom-0 bg-[#00000050] flex items-end transition-transform duration-500 ${selectLocation ? 'translate-y-0' : 'translate-y-full'}`}>
-            <div className='bg-white dark:bg-[#545454] h-[93vh] w-screen rounded-t-3xl p-4'>
-                <FaArrowLeft onClick={() => setSelectLocation(false)}/>
-                <div className='mt-4 border-b border-black-900'>
-                    <h1 className='font-bold mb-4'>Search for Location</h1>
-                    <div className='bg-[#12352420] dark:bg-[#7f7f7f] flex items-center p-2 mb-4'>
-                        <span><IoSearch/></span>
-                        <input className='pl-2' style={{ background: 'none'}} type="search" placeholder='e.g. BTM layout'/>
-                    </div>
-                    <Link to='/signup2' className='flex items-center gap-2 mb-4 text-black dark:text-[#80ffba]'>
-                        <span className='text-2xl'><BiTargetLock/></span>
-                        <h3 className='font-bold'>Use current location</h3>
-                    </Link>
-                </div>
-                <div className='pt-8 border-b border-black-900'>
-                    <h1 className='font-bold mb-4'>Recent Searches</h1>
-                    <div className='flex flex-col gap-2 mb-4'>
-                        <div className='flex items-center gap-2'>
-                            <span className='text-2xl'><MdOutlineHistory/></span>
-                            <div>
-                                <h3 className='font-bold'>Good Beach</h3>
-                                <h5>Victoria Island, Lagos</h5>
-                            </div>
-                        </div>
-                        <div className='flex items-center gap-2'>
-                            <span className='text-2xl'><MdOutlineHistory/></span>
-                            <div>
-                                <h3 className='font-bold'>Bode Thomas</h3>
-                                <h5>Bode Thomas, Surulere, Lagos</h5>
-                            </div>
-                        </div>
+        <div className={`w-screen h-screen absolute bottom-0 bg-[#00000050] flex items-end transition-transform duration-500 ${selectLocation ? 'translate-y-0' : 'translate-y-full hidden'}`}>
+    <div className='bg-white dark:bg-[#545454] h-[93vh] w-screen rounded-t-3xl p-4'>
+        <FaArrowLeft onClick={() => setSelectLocation(false)} />
+        <div className='mt-4 border-b border-black-900'>
+            <h1 className='font-bold mb-4'>Search for Location</h1>
+            <div className='bg-[#12352420] dark:bg-[#7f7f7f] flex items-center p-2 mb-4'>
+                <span><IoSearch /></span>
+                <input className='pl-2' style={{ background: 'none' }} type="search" placeholder='e.g. BTM layout' />
+            </div>
+            <Link to='/signup2' className='flex items-center gap-2 mb-4 text-black dark:text-[#80ffba]'>
+                <span className='text-2xl'><BiTargetLock /></span>
+                <h3 className='font-bold'>Use current location</h3>
+            </Link>
+        </div>
+        <div className='pt-8 border-b border-black-900'>
+            <h1 className='font-bold mb-4'>Recent Searches</h1>
+            <div className='flex flex-col gap-2 mb-4'>
+                <div className='flex items-center gap-2'>
+                    <span className='text-2xl'><MdOutlineHistory /></span>
+                    <div>
+                        <h3 className='font-bold'>Good Beach</h3>
+                        <h5>Victoria Island, Lagos</h5>
                     </div>
                 </div>
-                <div className='pt-8'>
-                    <h1 className='font-bold mb-4'>Saved address</h1>
-                    <div className='flex flex-col gap-2 mb-4'>
-                        <div className='flex items-center gap-2'>
-                            <span className='text-2xl'><MdBusinessCenter/></span>
-                            <div>
-                                <h3 className='font-bold'>Office</h3>
-                                <h5>Block 77, Mile 12, Gwarinpa, Abuja</h5>
-                            </div>
-                        </div>
-                        <div className='flex items-center gap-2'>
-                            <span className='text-2xl'><FaHome/></span>
-                            <div>
-                                <h3 className='font-bold'>Home</h3>
-                                <h5>12, Floor3, Magodo Phase 1, Lagos</h5>
-                            </div>
-                        </div>
+                <div className='flex items-center gap-2'>
+                    <span className='text-2xl'><MdOutlineHistory /></span>
+                    <div>
+                        <h3 className='font-bold'>Bode Thomas</h3>
+                        <h5>Bode Thomas, Surulere, Lagos</h5>
                     </div>
                 </div>
             </div>
-        </div>                
+        </div>
+        <div className='pt-8'>
+            <h1 className='font-bold mb-4'>Saved address</h1>
+            <div className='flex flex-col gap-2 mb-4'>
+                <div className='flex items-center gap-2'>
+                    <span className='text-2xl'><MdBusinessCenter /></span>
+                    <div>
+                        <h3 className='font-bold'>Office</h3>
+                        <h5>Block 77, Mile 12, Gwarinpa, Abuja</h5>
+                    </div>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <span className='text-2xl'><FaHome /></span>
+                    <div>
+                        <h3 className='font-bold'>Home</h3>
+                        <h5>12, Floor3, Magodo Phase 1, Lagos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>              
     </div>
   )
 }
