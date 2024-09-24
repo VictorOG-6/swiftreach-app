@@ -9,10 +9,10 @@ const UserProfile = () => {
     <div className='w-screen h-screen p-4'>
         <Link to='/settings' className='text-2xl'><FaArrowLeft/></Link>
         <h1 className='text-2xl font-bold my-4'>Personal Info</h1>
-        <div className='flex flex-col items-center border border-black-200 shadow-md rounded-3xl p-8 mb-4'>
-            <div className='relative bg-[#12352420] flex items-center justify-center rounded-full w-16 h-16 mb-2'>
+        <div className='flex flex-col items-center border border-black-200 shadow-md rounded-3xl p-8 mb-4 dark:bg-[#545454]'>
+            <div className='relative bg-[#12352420] flex items-center justify-center rounded-full w-16 h-16 mb-2 dark:bg-black'>
                 <span className='text-2xl'><FaUser/></span>
-                <div className='absolute bg-[#123524] text-white rounded-3xl -top-[6px] -right-[11px] p-2'><FaPlus/></div>
+                <div className='absolute bg-[#123524] text-white dark:bg-[#80ffba] dark:text-black rounded-3xl -top-[6px] -right-[11px] p-2'><FaPlus/></div>
             </div>
             <h1 className='text-center font-semibold'>Add a profile photo for user recognition through swiftreach personnels</h1>
         </div>

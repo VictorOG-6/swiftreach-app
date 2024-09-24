@@ -44,10 +44,10 @@ const ContactUs = () => {
       <div className='mb-4'>
         <img className='w-20' src={swiftreach} alt="logo" />
       </div>
-      <div className='w-[93vw] bg-[#12352420] rounded-3xl'>
+      <div className='w-[93vw] bg-[#12352420] dark:bg-[#545454] rounded-3xl'>
         <div className='pl-4 pt-4'>
           <h3>Any Questions?</h3>
-          <h1 className='text-[#123524] text-2xl font-bold'>Get in Touch</h1>
+          <h1 className='text-[#123524] dark:text-[#80ffba] text-2xl font-bold'>Get in Touch</h1>
         </div>
         <form ref={formRef} onSubmit={handleSubmit} className='w-[90vw] flex flex-col px-4 py-2 gap-4'>
             <label className='flex flex-col'>
@@ -63,7 +63,7 @@ const ContactUs = () => {
               <textarea rows={7} name='message' value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
             </label>
 
-            <button className='bg-[#123524] py-3 px-8 outline-none w-[84vw] text-white font-bold shadow-md shadow-primary rounded-xl mb-2' type='submit'>{loading ? 'Sending...' : 'Send'}</button>
+            <button className='bg-[#123524] dark:bg-[#80ffba] dark:text-black py-3 px-8 outline-none w-[84vw] text-white font-bold shadow-md shadow-primary rounded-xl mb-2' type='submit'>{loading ? 'Sending...' : 'Send'}</button>
           </form>
       </div>
     </div>

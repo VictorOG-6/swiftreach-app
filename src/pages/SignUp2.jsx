@@ -24,7 +24,7 @@ const SignUp2 = () => {
             </Link>
           </div>
         </div>
-        <Link to='/home' className='w-[90vw] bg-black text-white p-4 flex items-center justify-center rounded-3xl mt-2 mb-12'>
+        <Link to='/home' className='w-[90vw] bg-black text-white dark:bg-white dark:text-black p-4 flex items-center justify-center rounded-3xl mt-2 mb-12'>
           <h1>Confirm Location</h1>
         </Link>
       </div>

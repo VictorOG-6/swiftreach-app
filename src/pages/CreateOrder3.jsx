@@ -11,47 +11,47 @@ const CreateOrder3 = () => {
         </div>
         <div className='mb-4'>
           <h3 className='mb-2'>Select delivery medium </h3>
-          <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-4'>
+          <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-4 dark:bg-[#545454]'>
             <div className='mb-2'>
               <h3>Based on the delivery medium, the rates will be shown in the total payment</h3>
             </div>
             <div className='w-[87vw]'>
               <div className='flex justify-between'>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4 dark:bg-[#7f7f7f]'>
                   <div>
                     <h3 className='whitespace-nowrap'>Drone Delivery</h3>
                     <h1 className='font-bold'>$19.99</h1>
                   </div>
-                  <div className='h-4 w-4 rounded-full border border-black p-2'>
+                  <div className='h-4 w-4 rounded-full border border-black dark:border-white p-2'>
                     <div className='bg-[#80ffba] rounded-full'/>
                   </div>
                 </div>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4 dark:bg-[#7f7f7f]'>
                   <div>
                     <h3 className='whitespace-nowrap'>Van Delivery</h3>
                     <h1 className='font-bold'>$10.99</h1>
                   </div>
-                  <div className='h-4 w-4 rounded-full border border-black p-2'>
+                  <div className='h-4 w-4 rounded-full border border-black dark:border-white p-2'>
                     <div className='rounded-full'/>
                   </div>
                 </div>
               </div>
               <div className='flex justify-between'>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4 dark:bg-[#7f7f7f]'>
                   <div>
                     <h3 className='whitespace-nowrap'>Scooter Delivery</h3>
                     <h1 className='font-bold'>$8.99</h1>
                   </div>
-                  <div className='h-4 w-4 rounded-full border border-black p-2'>
+                  <div className='h-4 w-4 rounded-full border border-black dark:border-white p-2'>
                     <div className='rounded-full'/>
                   </div>
                 </div>
-                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4'>
+                <div className='w-[42vw] flex items-center justify-between border border-black-200 shadow-md rounded-3xl gap-[0.3em] py-2 px-4 mb-4 dark:bg-[#7f7f7f]'>
                   <div>
                     <h3 className='whitespace-nowrap'>Bicycle Delivery</h3>
                     <h1 className='font-bold'>$5.99</h1>
                   </div>
-                  <div className='h-4 w-4 rounded-full border border-black p-2'>
+                  <div className='h-4 w-4 rounded-full border border-black dark:border-white p-2'>
                     <div className='rounded-full'/>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const CreateOrder3 = () => {
         </div>
         <div className='mb-4'>
           <h3 className='mb-2'>Invoice</h3>
-          <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-4'>
+          <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-4 dark:bg-[#545454]'>
             <div className='w-[80vw] border-b border-black-500 pb-2'>
               <div className='flex items-center justify-between mb-2'>
                 <div>
@@ -89,7 +89,7 @@ const CreateOrder3 = () => {
             </div>
           </div>
         </div>
-        <Link to='/createorder4' className='w-[90vw] bg-black text-white p-4 flex items-center justify-center rounded-3xl'>
+        <Link to='/createorder4' className='w-[90vw] bg-black text-white dark:bg-white dark:text-black p-4 flex items-center justify-center rounded-3xl'>
             <h1>Go To Payment</h1>
         </Link>               
     </div>

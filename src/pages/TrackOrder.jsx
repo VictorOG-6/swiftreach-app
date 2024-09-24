@@ -13,11 +13,11 @@ const TrackOrder = () => {
             </div>
         </div>
         <div className='flex justify-center mb-4'>
-            <div className='w-[85vw] bg-[#12352420] flex justify-center p-2 rounded-3xl'>
-                <Link to='/allorders' className='w-[40vw] py-2 rounded-3xl text-black text-center'>
+            <div className='w-[85vw] bg-[#12352420] dark:bg-[#545454] flex justify-center p-2 rounded-3xl'>
+                <Link to='/allorders' className='w-[40vw] py-2 rounded-3xl text-black dark:text-white text-center'>
                     <h3>List</h3>
                 </Link>
-                <Link to='/trackorder' className='w-[40vw] p-2 rounded-3xl bg-[#123524] text-white text-center'>
+                <Link to='/trackorder' className='w-[40vw] p-2 rounded-3xl bg-[#123524] text-white dark:bg-[#80ffba] dark:text-black text-center'>
                     <h3>Tracker</h3>
                 </Link>
             </div>
@@ -25,11 +25,11 @@ const TrackOrder = () => {
       <div className='h-[41vh]'>
         <Map/>
       </div>
-      <div className='w-[90vw] h-[26vh] p-4 rounded-3xl border border-black-200 shadow-md'>
+      <div className='w-[90vw] h-[26vh] p-4 rounded-3xl dark:bg-[#545454] border border-black-200 shadow-md'>
         <div className='flex items-center justify-center rounded-3xl bg-[#FFC107] p-2'>
           <h1 className='font-bold'>SUR14592900</h1>
         </div>
-        <div className='bg-white p-2 flex flex-col gap-2'>
+        <div className='bg-white dark:bg-[#545454] p-2 flex flex-col gap-2'>
           <div className='flex justify-between'>
             <div>
               <h5>Order Date</h5>

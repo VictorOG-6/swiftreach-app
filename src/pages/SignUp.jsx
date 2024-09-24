@@ -8,7 +8,7 @@ const SignUp = () => {
       <div className='flex gap-20 pl-4'>
         <Link to='/' className='bg-[#12352420] py-2 px-4'>&#10094;</Link>
         <div className='flex gap-4 text-sm'>
-          <span className='bg-[#123524] text-white p-2 rounded-full'>Sign Up</span>
+          <span className='bg-[#123524] dark:bg-[#80ffba] dark:text-black text-white p-2 rounded-full'>Sign Up</span>
           <span className='p-2 bg-[#12352405] rounded-full'>Sign In</span>
         </div>  
       </div>
@@ -39,7 +39,7 @@ const SignUp = () => {
         <div className='w-[64vw] text-right mb-12'>
           <Link to='/signin'>Already Registered. SignIn </Link>
         </div>
-        <Link to='/signup1' className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
+        <Link to='/signup1' className='bg-[#123524] dark:bg-[#ff80ba] w-[60vw] rounded-full p-4 text-center text-white'>
           <h5>Sign Up</h5>
         </Link>
       </div>

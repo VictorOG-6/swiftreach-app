@@ -10,7 +10,7 @@ const SignIn = () => {
             <Link to='/' className='bg-[#12352420] py-2 px-4'>&#10094;</Link>
             <div className='flex gap-4 text-sm'>
               <span className='p-2 bg-[#12352405] rounded-full'>Sign Up</span>
-              <span className='bg-[#123524] text-white p-2 rounded-full'>Sign In</span>
+              <span className='bg-[#123524] dark:bg-[#80ffba] dark:text-black text-white p-2 rounded-full'>Sign In</span>
             </div>  
           </div>
           <div className='flex flex-col items-center'>
@@ -30,14 +30,11 @@ const SignIn = () => {
               </div>          
             </form>
             <div className='w-[64vw] text-right mb-12'><Link to='/signup'>Not Registered</Link></div>
-            <Link to='/home' className='bg-[#123524] w-[60vw] rounded-full p-4 text-center text-white'>
+            <Link to='/home' className='bg-[#123524] dark:bg-[#80ffba] dark:text-black w-[60vw] rounded-full p-4 text-center text-white'>
               <h5>Sign In</h5>
             </Link>
         </div>
-      </div>
-      <div>
-        
-      </div>
+      </div>      
     </div>
   )
 }

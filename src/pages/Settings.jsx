@@ -99,7 +99,7 @@ const Settings = () => {
             <span><IoLogOut/></span>
             <h3>Log out</h3>
           </Link>
-          <Link className='flex items-center gap-2 py-2 text-orange-950'>
+          <Link className='flex items-center gap-2 py-2 text-blue-950'>
             <span><FaTrashAlt/></span>
             <h3>Delete Account</h3>
           </Link>

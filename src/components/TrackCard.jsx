@@ -30,7 +30,7 @@ const TrackCard = () => {
   return (
     <>
       {orderStates.map((order, index) => (
-        <div  key={index} className="bg-white rounded-3xl p-2 border-2 shadow-lg" style={{ borderRightColor: order.color, borderBottomColor: order.color}}>
+        <div  key={index} className="bg-white dark:bg-[#545454] rounded-3xl p-2 border-2 shadow-lg" style={{ borderRightColor: order.color, borderBottomColor: order.color}}>
               <div className="flex justify-center mb-2">
                 <div className='text-center'>
                   <h3>Tracking ID</h3>

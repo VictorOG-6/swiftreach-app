@@ -30,7 +30,7 @@ const OrderCard = () => {
   return (
     <>
         {orderStates.map((order, index) => (
-            <div key={index} className='border border-black-200 shadow-md rounded-3xl p-4'>
+            <div key={index} className='border border-black-200 dark:bg-[#545454] shadow-md rounded-3xl p-4'>
                 <div className='w-[85vw] flex justify-between border-b border-black-500 pb-4'>
                     <div>
                         <h3>Package Contains</h3>

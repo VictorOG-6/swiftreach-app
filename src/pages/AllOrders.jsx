@@ -13,11 +13,11 @@ const AllOrders = () => {
             </div>
         </div>
         <div className='flex justify-center mb-4'>
-            <div className='w-[85vw] bg-[#12352420] flex justify-center p-2 rounded-3xl'>
-                <Link to='/allorders' className='w-[40vw] py-2 rounded-3xl bg-[#123524] text-white text-center'>
+            <div className='w-[85vw] bg-[#12352420] dark:bg-[#545454] flex justify-center p-2 rounded-3xl'>
+                <Link to='/allorders' className='w-[40vw] py-2 rounded-3xl bg-[#123524] dark:bg-[#80ffba] dark:text-black text-white text-center'>
                     <h3>List</h3>
                 </Link>
-                <Link to='/trackorder' className='w-[40vw] p-2 rounded-3xl text-black text-center'>
+                <Link to='/trackorder' className='w-[40vw] dark:text-white p-2 rounded-3xl text-black text-center'>
                     <h3>Tracker</h3>
                 </Link>
             </div>
