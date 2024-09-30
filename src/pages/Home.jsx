@@ -14,11 +14,11 @@ const Home = () => {
       <Userbar/>
       <div className='mb-4'>
         <h3 className='mb-4'>My Orders</h3>
-        <div className='flex gap-2 mb-4 overflow-x-scroll'>
+        <div className='flex gap-2 mb-4 overflow-x-scroll md:justify-center md:gap-4 md:mb-8'>
           <TrackCard/>
         </div>
         <div className='flex items-center justify-center'>
-          <Link to="/allorders" className=' bg-[#123524] text-white dark:bg-[#80ffba] dark:text-black py-2 px-4 rounded-full'>
+          <Link to="/allorders" className=' bg-[#123524] text-white dark:bg-[#80ffba] dark:text-black py-2 px-4 md:py-4 md:px-8 rounded-full'>
             <h3>View All Orders</h3>
           </Link>
         </div>
@@ -26,22 +26,22 @@ const Home = () => {
       <div>
         <h5 className='font-semibold mb-2'>Book SwiftReach for</h5>
         <div className='pt-2'>
-          <div className='flex justify-around items-center mb-4'>
+          <div className='flex justify-around items-center mb-4 md:flex-col md:mb-8 md:gap-8'>
             <Link to='/createorder' className='flex flex-col items-center border border-black dark:border-white rounded-3xl p-2 shadow-lg dark:bg-[#545454]'>
-              <img src={droneimgdark} alt="drone-image" className='w-40 h-24 object-cover dark:hidden'/>
-              <img src={droneimglight} alt="drone-image" className='w-40 h-24 object-cover hidden dark:block' />
+              <img src={droneimgdark} alt="drone-image" className='w-40 h-24 object-cover dark:hidden md:w-80 md:h-40'/>
+              <img src={droneimglight} alt="drone-image" className='w-40 h-24 object-cover hidden dark:block md:w-80 md:h-40' />
               <h5>Drone</h5>
             </Link>
             <Link to='/createorder' className='flex flex-col items-center border border-black dark:border-white rounded-3xl p-2 shadow-lg dark:bg-[#545454]'>
-              <img src={vanimgdark} alt="van-image" className='w-40 h-24 object-cover dark:hidden'/>
-              <img src={vanimglight} alt="vn-image" className='w-40 h-24 object-cover hidden dark:block'/>
+              <img src={vanimgdark} alt="van-image" className='w-40 h-24 object-cover dark:hidden md:w-80 md:h-40'/>
+              <img src={vanimglight} alt="vn-image" className='w-40 h-24 object-cover hidden dark:block md:w-80 md:h-40'/>
               <h5>Van</h5>
             </Link>
           </div>  
           <div className='flex justify-around items-center'>
             <Link to='/createorder' className='flex flex-col items-center border border-black dark:border-white rounded-3xl p-2 shadow-lg dark:bg-[#545454]'>
-              <img src={scooterimgdark} alt="scooter-image" className='w-40 h-24 object-cover dark:hidden'/>
-              <img src={scooterimglight} alt="scooter-image" className='w-40 h-24 object-cover hidden dark:block'/>
+              <img src={scooterimgdark} alt="scooter-image" className='w-40 h-24 object-cover dark:hidden md:w-80 md:h-40'/>
+              <img src={scooterimglight} alt="scooter-image" className='w-40 h-24 object-cover hidden dark:block md:w-80 md:h-40'/>
               <h5>Scooter</h5>
             </Link>            
           </div>

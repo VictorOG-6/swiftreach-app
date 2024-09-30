@@ -5,7 +5,7 @@ import { FaArrowLeft } from "react-icons/fa";
 const CreateOrder2 = () => {
   return (
     <div className='w-screen p-4'>
-        <div className='flex items-center mb-2'>
+        <div className='flex items-center mb-2 md:gap-[16rem] md:mb-4'>
             <Link to='/createorder1' className='p-4 bg-[#123524] text-white rounded-full mr-20'><span><FaArrowLeft/></span></Link>
             <h1 className='font-bold'>Confirm Your Details</h1>
         </div>
@@ -43,7 +43,7 @@ const CreateOrder2 = () => {
                 <h3 className='font-bold'>Volatile medicines. Please take care of them. Avoid liquid contact</h3>
             </div>
         </div>
-        <div className='mb-2'>
+        <div className='mb-2 md:mb-8'>
             <h3>Pick Up And Delivery</h3>
             <div className='flex flex-col items-center justify-around border border-black-200 shadow-md rounded-3xl p-2 dark:bg-[#545454]'>
                 <div className='mb-2'>

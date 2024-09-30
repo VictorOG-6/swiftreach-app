@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TrackOrder = () => {
   return (
     <div className='w-screen p-4'>
-      <div className='flex justify-end items-center gap-32 mb-8'>
+      <div className='flex justify-end items-center gap-32 md:gap-[22rem] mb-8'>
             <h1 className='text-lg font-bold'>Parcel Tracking</h1>
             <div>
                 <IoNotifications/>
@@ -22,7 +22,7 @@ const TrackOrder = () => {
                 </Link>
             </div>
         </div>      
-      <div className='h-[41vh]'>
+      <div className='h-[41vh] md:h-[48vh]'>
         <Map/>
       </div>
       <div className='w-[90vw] h-[26vh] p-4 rounded-3xl dark:bg-[#545454] border border-black-200 shadow-md'>

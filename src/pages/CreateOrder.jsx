@@ -38,7 +38,7 @@ const CreateOrder = () => {
           </div>
         </div>
       </div>
-      <div className='mb-4'>
+      <div className='mb-4 md:mb-8'>
         <h3 className='mb-2'>Package Details</h3>
         <div className='h-[36vh] border border-black-200 dark:bg-[#545454] shadow-md rounded-3xl p-4'>
           <div className='w-[85vw] mb-4'>

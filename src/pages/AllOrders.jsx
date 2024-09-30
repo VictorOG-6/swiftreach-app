@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const AllOrders = () => {
   return (
     <div className='w-screen p-4'>
-        <div className='flex justify-end items-center gap-32 mb-8'>
+        <div className='flex justify-end items-center gap-32 md:gap-[22rem] mb-8'>
             <h1 className='text-lg font-bold'>Parcel Tracking</h1>
             <div>
                 <IoNotifications/>

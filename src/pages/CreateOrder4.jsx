@@ -10,7 +10,7 @@ import opay from '/opay.png'
 const CreateOrder4 = () => {
   return (
     <div className='w-screen p-4'>
-       <div className='flex items-center mb-2'>
+       <div className='flex items-center mb-2 md:gap-[16rem] md:mb-4'>
             <Link to='/createorder3' className='p-4 bg-[#123524] text-white rounded-full mr-32'><span><FaArrowLeft/></span></Link>
             <h1 className='font-bold'>Payment</h1>
         </div>
